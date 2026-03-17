@@ -186,6 +186,8 @@ Not significant:
 
 - Bands score: H = 1.858, p = 0.39
 
+![Summary Results](table_1.png) 
+
 ---
 
 👨‍⚕️ Inter-Rater Reliability
