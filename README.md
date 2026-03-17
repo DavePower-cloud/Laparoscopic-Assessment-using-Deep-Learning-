@@ -157,6 +157,8 @@ Stack	          79% \
 Tower	          49% \
 Bands	          54% 
 
+![Multi Con Matrix](3_class_confusion_matrices.svg)
+
 Performance was highest for the stack task, while classification of the trainee group remained challenging due to heterogeneity.	
 
 Binary Classification (Expert vs Novice) 
@@ -166,9 +168,11 @@ Stack	          91% \
 Tower	          97% \
 Bands	          79% 
 
+![Binary Con Matrix](binary_confusion_matrices.svg)
+
 Binary classification demonstrated strong discrimination between expert and novice participants, particularly for the tower task.
 
-![Area PLot](area_plots.png)
+![Area PLot](area_plot.png)
 
 ---
 
