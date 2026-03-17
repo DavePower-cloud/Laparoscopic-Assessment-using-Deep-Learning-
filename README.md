@@ -34,12 +34,12 @@ This work demonstrates how AI can:
 ---
 
 📄 Associated Publications
-IEEE EMBC (2024)
 
-Automated Assessment of Simulated Laparoscopic Surgical Performance using 3DCNN
+Automated Assessment of Simulated Laparoscopic Surgical Performance using 3DCNN. IEEE EMBC (2024)
+https://doi.org/10.1109/EMBC53108.2024.10782160.
 
-Scientific Reports (Nature Portfolio, 2025)
-Automated assessment of simulated laparoscopic surgical skill performance using deep learning
+Automated assessment of simulated laparoscopic surgical skill performance using deep learning. Scientific Reports (Nature Portfolio, 2025)
+https://doi.org/10.1038/s41598-025-96336-5
 
 ---
 
@@ -329,10 +329,11 @@ MIT License
 
 ---
 
-👤 Author
-David Power
-University College Cork
-ASSERT Centre
+👤 Author 
+
+David Power \
+AI | Healthcare Simulation | Medical Education \
+University College Cork, Ireland
 
 ---
 
