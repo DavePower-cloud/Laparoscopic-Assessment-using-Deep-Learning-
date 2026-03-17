@@ -128,6 +128,8 @@ Outputs:
 
   - Binary: novice vs expert
 
+![Model Diagram](new-3dcnnModel.jpg)
+
 ---
 
 Training
