@@ -243,7 +243,7 @@ Task Difficulty:
 - Stack → Moderate 
 - Bands → Weak
 
-![Pipeline Diagram](pipeline.png)  
+![Pipeline Diagram](pipeline2.png)  
 
 ---
 
