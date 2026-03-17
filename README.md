@@ -69,6 +69,8 @@ Tasks:
 
 - Tower
 
+![Skills Image](3_skills.png)
+
 Participants:
 
 - Novice
@@ -165,6 +167,8 @@ Tower	          97% \
 Bands	          79% 
 
 Binary classification demonstrated strong discrimination between expert and novice participants, particularly for the tower task.
+
+![Area PLot](area_plots.png)
 
 ---
 
