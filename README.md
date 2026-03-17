@@ -233,37 +233,42 @@ The model achieved higher and more consistent performance, particularly in binar
 ---
 
 🖼 Visual Overview
-System Pipeline
-Raw Video → Preprocessing → 3DCNN → Feature Extraction → Classification → Metrics
-Model vs Human
-Human: variable, subjective
-Model: consistent, reproducible
-Task Difficulty
-Tower → Strong
-Stack → Moderate
-Bands → Weak
+System Pipeline \
+Raw Video → Preprocessing → 3DCNN → Feature Extraction → Classification → Metrics \
+Model vs Human \
+Human: variable, subjective \
+Model: consistent, reproducible \
+Task Difficulty:  
+- Tower → Strong 
+- Stack → Moderate 
+- Bands → Weak
+
+![Pipeline Diagram](pipeline.png)  
 
 ---
 
-📊 Example Output
-{
-"task": "tower",
-"prediction": "expert",
-"confidence": 0.94
+📊 Example Output \
+{ \
+"task": "tower", \
+"prediction": "expert", \
+"confidence": 0.94 \
 }
 
 ---
 
 🧱 Repository Structure
 src/
-├── data.py
-├── model.py
-├── train.py
-├── evaluate.py
-└── utils.py
+- data.py
+-  model.py
+-  train.py
+-  valuate.py
+-  utils.py
+  
 notebooks/
-└── demo_assessment.ipynb
+-  demo_assessment.ipynb
+  
 🚀 Quick Start
+
 pip install -r requirements.txt
 python src/train.py
 python src/evaluate.py
