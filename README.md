@@ -10,7 +10,7 @@ Automated assessment of simulated laparoscopic surgical performance using **comp
 
 --- 
 
-Automated assessment of simulated laparoscopic surgical performance using computer vision and deep learning (3DCNN). \
+Automated assessment of simulated laparoscopic surgical performance using computer vision and deep learning (3DCNN). 
 
 📌 Overview
 
