@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs (models, plots, metrics)
+outputs/
+
+# Data (do not upload datasets)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
