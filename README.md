@@ -85,7 +85,8 @@ Weak supervision:
 
 - labels applied at video level
 
-⚠️ Dataset is not publicly available due to ethical and privacy constraints.
+⚠️ The dataset used in this study is not publicly available due to ethical, privacy, and institutional governance constraints. 
+Access may be considered upon reasonable request to the corresponding author, subject to appropriate approvals and data sharing agreements.
 
 ---
 
@@ -270,20 +271,28 @@ Task Difficulty:
 
 🧱 Repository Structure
 src/
-- data.py
+-  config.py
+-  data.py
 -  model.py
 -  train.py
--  valuate.py
+-  evaluate.py
 -  utils.py
   
 notebooks/
--  demo_assessment.ipynb
+-  auto_skills_assess.ipynb
+
+---
   
 🚀 Quick Start
 
-pip install -r requirements.txt
-python src/train.py
-python src/evaluate.py
+Install dependencies: 
+- pip install -r requirements.txt
+
+Train model:
+- python src/train.py
+
+Evaluate model:
+- python src/evaluate.py
 
 ---
 
@@ -337,6 +346,32 @@ University College Cork, Ireland
 
 ---
 
-📚 Citation
+## 📚 Citation  
 
-If you use this work, please cite the associated publications.
+If you use this code or build upon this work, please cite:  
+
+
+```bibtex
+@article{power2025laparoscopic,
+  title   = {Automated assessment of simulated laparoscopic surgical skill performance using deep learning},
+  author  = {Power, David and Burke, C. and Madden, Michael G. and others},
+  journal = {Scientific Reports},
+  volume  = {15},
+  pages   = {13591},
+  year    = {2025},
+  doi     = {10.1038/s41598-025-96336-5},
+  publisher = {Nature Publishing Group}
+}
+
+
+@inproceedings{power2024laparoscopic,
+  title     = {Automated Assessment of Simulated Laparoscopic Surgical Performance using 3DCNN},
+  author    = {Power, D. and Ullah, I.},
+  booktitle = {2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+  address   = {Orlando, FL, USA},
+  pages     = {1--4},
+  year      = {2024},
+  doi       = {10.1109/EMBC53108.2024.10782160},
+  publisher = {IEEE}
+}
+
