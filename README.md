@@ -5,6 +5,7 @@
 ![Domain](https://img.shields.io/badge/Domain-Surgical%20Simulation-green)  
 ![Status](https://img.shields.io/badge/Status-Published%20Research-brightgreen)  
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)  
+[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41598--025--96336--5-blue)](https://doi.org/10.1038/s41598-025-96336-5)
 
 Automated assessment of simulated laparoscopic surgical performance using **computer vision and deep learning (3DCNN)**.  
 
