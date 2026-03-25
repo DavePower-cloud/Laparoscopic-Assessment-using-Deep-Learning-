@@ -10,7 +10,7 @@
 Automated assessment of simulated laparoscopic surgical performance using **computer vision and deep learning (3DCNN)**.  
 
 
-📌 Overview
+## 📌 Overview
 
 This repository implements a deep learning framework for objective assessment of laparoscopic surgical skill using simulation video data.
 The system uses a 3D Convolutional Neural Network (3DCNN) to extract spatiotemporal features and classify operator expertise:
@@ -31,7 +31,7 @@ This work demonstrates how AI can:
 
 ---
 
-📄 Associated Publications
+## 📄 Associated Publications
 
 Automated Assessment of Simulated Laparoscopic Surgical Performance using 3DCNN. IEEE EMBC (2024)
 https://doi.org/10.1109/EMBC53108.2024.10782160.
@@ -41,7 +41,7 @@ https://doi.org/10.1038/s41598-025-96336-5
 
 ---
 
-🎯 Motivation
+## 🎯 Motivation
 
 Traditional surgical skill assessment:
 
@@ -56,7 +56,7 @@ This project explores whether deep learning can directly infer skill from video,
 
 ---
 
-🗂 Dataset: LSPD (Laparoscopic Surgical Performance Dataset)
+## 🗂 Dataset: LSPD (Laparoscopic Surgical Performance Dataset)
 Characteristics
 
 Tasks:
@@ -88,7 +88,7 @@ Access may be considered upon reasonable request to the corresponding author, su
 
 ---
 
-🧪 Methodology 
+## 🧪 Methodology 
 
 Preprocessing
 
@@ -110,7 +110,7 @@ Preprocessing
 
 ---
 
-Model Architecture (3DCNN)
+### Model Architecture (3DCNN)
 
 - 4 × Conv3D layers (64 → 512 filters)
 
@@ -133,7 +133,7 @@ Outputs:
 
 ---
 
-Training
+### Training
 
 - 5-fold cross-validation
 
@@ -147,7 +147,7 @@ Training
 
 ---
 
-📊 Results 
+## 📊 Results 
 
 Multi-class Classification 
 
@@ -177,7 +177,7 @@ Binary classification demonstrated strong discrimination between expert and novi
 
 
 	
-📈 Statistical Analysis of Task Difficulty
+## 📈 Statistical Analysis of Task Difficulty
 
 - Stack time: H = 14.08, p = 0.0087
 
@@ -197,7 +197,7 @@ Not significant:
 
 ---
 
-👨‍⚕️ Inter-Rater Reliability
+## 👨‍⚕️ Inter-Rater Reliability
 
 - Stack: κ = 1.00
 
@@ -207,7 +207,7 @@ Not significant:
 
 ---
 
-👨‍⚕️ Human vs Model Performance
+## 👨‍⚕️ Human vs Model Performance
 
 Multi-class agreement:
 
@@ -229,7 +229,7 @@ The model achieved higher and more consistent performance, particularly in binar
 
 ---
 
-🔑 Key Insights
+## 🔑 Key Insights
 
 - Strong discrimination between expert vs novice
 
@@ -243,7 +243,8 @@ The model achieved higher and more consistent performance, particularly in binar
 
 ---
 
-🖼 Visual Overview
+## 🖼 Visual Overview
+
 System Pipeline \
 Raw Video → Preprocessing → 3DCNN → Feature Extraction → Classification → Metrics \
 Model vs Human \
@@ -258,7 +259,8 @@ Task Difficulty:
 
 ---
 
-📊 Example Output \
+## 📊 Example Output 
+
 { \
 "task": "tower", \
 "prediction": "expert", \
@@ -267,7 +269,8 @@ Task Difficulty:
 
 ---
 
-🧱 Repository Structure
+## 🧱 Repository Structure
+
 src/
 -  config.py
 -  data.py
@@ -281,7 +284,7 @@ notebooks/
 
 ---
   
-🚀 Quick Start
+## 🚀 Quick Start
 
 Install dependencies: 
 - pip install -r requirements.txt
@@ -294,7 +297,7 @@ Evaluate model:
 
 ---
 
-💡 Key Contributions
+## 💡 Key Contributions
 
 - LSPD dataset for laparoscopic skill assessment
 
@@ -306,7 +309,7 @@ Evaluate model:
 
 ---
 
-⚠️ Limitations
+## ⚠️ Limitations
 
 - Small dataset
 
@@ -318,7 +321,7 @@ Evaluate model:
 
 ---
 
-🔮 Future Work
+## 🔮 Future Work
 
 - Attention-based video models
 
@@ -330,17 +333,19 @@ Evaluate model:
 
 ---
 
-📜 License
+## 📜 License
 
 MIT License
 
 ---
 
-👤 Author 
+## 👤 Author
 
-David Power \
-AI | Healthcare Simulation | Medical Education \
-University College Cork, Ireland
+**David Power**  
+Healthcare Simulation Specialist | MSc Artificial Intelligence  
+
+- 💼 LinkedIn: https://www.linkedin.com/in/dave-power-47280a44/  
+- 💻 GitHub: https://github.com/DavePower-cloud
 
 ---
 
