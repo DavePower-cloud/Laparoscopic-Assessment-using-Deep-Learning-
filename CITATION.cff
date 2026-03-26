@@ -1,0 +1,22 @@
+@article{power2025laparoscopic,
+  title   = {Automated assessment of simulated laparoscopic surgical skill performance using deep learning},
+  author  = {Power, David and Burke, C. and Madden, Michael G. and others},
+  journal = {Scientific Reports},
+  volume  = {15},
+  pages   = {13591},
+  year    = {2025},
+  doi     = {10.1038/s41598-025-96336-5},
+  publisher = {Nature Publishing Group}
+}
+
+
+@inproceedings{power2024laparoscopic,
+  title     = {Automated Assessment of Simulated Laparoscopic Surgical Performance using 3DCNN},
+  author    = {Power, D. and Ullah, I.},
+  booktitle = {2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+  address   = {Orlando, FL, USA},
+  pages     = {1--4},
+  year      = {2024},
+  doi       = {10.1109/EMBC53108.2024.10782160},
+  publisher = {IEEE}
+}
